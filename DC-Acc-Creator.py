@@ -12,8 +12,8 @@ import httpx
 import validators
 
 # Imports from Files
-from modules.discord import Discord
-from modules.tempmail import TempMail
+from discord import Discord
+from tempmail import TempMail
 
 class Generator:
     async def initialize(self, botright_client, proxy, mode=None, output_file="output.txt", email=True, humanize=True, output_format="token:email:pass", invite_link=""):
